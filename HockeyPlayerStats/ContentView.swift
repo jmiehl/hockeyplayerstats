@@ -8,14 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    
+    @State var query: String = ""
+    var service = DataService()
+   
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
+        VStack{
+            Text("hello world")
+           // List (skaters) { b in
+                //Text(b.firstName.firstName ?? "NIL")
+                
+            }
         .padding()
+        .task {
+            await service.hockeyPlayerSearch()
+          
+        }
     }
 }
 

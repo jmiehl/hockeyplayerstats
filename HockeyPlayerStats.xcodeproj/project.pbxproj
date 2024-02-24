@@ -11,6 +11,10 @@
 		CFD2977B2B857C9200AA30D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD2977A2B857C9200AA30D8 /* ContentView.swift */; };
 		CFD2977D2B857C9300AA30D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD2977C2B857C9300AA30D8 /* Assets.xcassets */; };
 		CFD297802B857C9300AA30D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD2977F2B857C9300AA30D8 /* Preview Assets.xcassets */; };
+		CFD297872B857E3200AA30D8 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD297862B857E3200AA30D8 /* DataService.swift */; };
+		CFD2978A2B85814600AA30D8 /* HockeyPlayerSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD297892B85814600AA30D8 /* HockeyPlayerSearch.swift */; };
+		CFD2978C2B8582A300AA30D8 /* Skater.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD2978B2B8582A300AA30D8 /* Skater.swift */; };
+		CFD2978E2B8586F900AA30D8 /* Goalie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD2978D2B8586F900AA30D8 /* Goalie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		CFD2977A2B857C9200AA30D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CFD2977C2B857C9300AA30D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFD2977F2B857C9300AA30D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFD297862B857E3200AA30D8 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		CFD297892B85814600AA30D8 /* HockeyPlayerSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HockeyPlayerSearch.swift; sourceTree = "<group>"; };
+		CFD2978B2B8582A300AA30D8 /* Skater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skater.swift; sourceTree = "<group>"; };
+		CFD2978D2B8586F900AA30D8 /* Goalie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goalie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,8 @@
 		CFD297772B857C9200AA30D8 /* HockeyPlayerStats */ = {
 			isa = PBXGroup;
 			children = (
+				CFD297882B85813000AA30D8 /* Model */,
+				CFD297862B857E3200AA30D8 /* DataService.swift */,
 				CFD297782B857C9200AA30D8 /* HockeyPlayerStatsApp.swift */,
 				CFD2977A2B857C9200AA30D8 /* ContentView.swift */,
 				CFD2977C2B857C9300AA30D8 /* Assets.xcassets */,
@@ -65,6 +75,16 @@
 				CFD2977F2B857C9300AA30D8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFD297882B85813000AA30D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CFD297892B85814600AA30D8 /* HockeyPlayerSearch.swift */,
+				CFD2978B2B8582A300AA30D8 /* Skater.swift */,
+				CFD2978D2B8586F900AA30D8 /* Goalie.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFD297872B857E3200AA30D8 /* DataService.swift in Sources */,
+				CFD2978A2B85814600AA30D8 /* HockeyPlayerSearch.swift in Sources */,
+				CFD2978E2B8586F900AA30D8 /* Goalie.swift in Sources */,
+				CFD2978C2B8582A300AA30D8 /* Skater.swift in Sources */,
 				CFD2977B2B857C9200AA30D8 /* ContentView.swift in Sources */,
 				CFD297792B857C9200AA30D8 /* HockeyPlayerStatsApp.swift in Sources */,
 			);
