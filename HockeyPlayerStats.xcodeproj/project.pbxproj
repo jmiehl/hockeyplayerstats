@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF4A53292B8A83DF00AF2E69 /* PlayerStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4A53282B8A83DF00AF2E69 /* PlayerStatsView.swift */; };
+		CF4A532B2B8ACFBE00AF2E69 /* GoalieStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4A532A2B8ACFBE00AF2E69 /* GoalieStatsView.swift */; };
 		CFD297792B857C9200AA30D8 /* HockeyPlayerStatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD297782B857C9200AA30D8 /* HockeyPlayerStatsApp.swift */; };
 		CFD2977B2B857C9200AA30D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD2977A2B857C9200AA30D8 /* ContentView.swift */; };
 		CFD2977D2B857C9300AA30D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD2977C2B857C9300AA30D8 /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF4A53282B8A83DF00AF2E69 /* PlayerStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerStatsView.swift; sourceTree = "<group>"; };
+		CF4A532A2B8ACFBE00AF2E69 /* GoalieStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalieStatsView.swift; sourceTree = "<group>"; };
 		CFD297752B857C9200AA30D8 /* HockeyPlayerStats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HockeyPlayerStats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD297782B857C9200AA30D8 /* HockeyPlayerStatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HockeyPlayerStatsApp.swift; sourceTree = "<group>"; };
 		CFD2977A2B857C9200AA30D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				CFD297862B857E3200AA30D8 /* DataService.swift */,
 				CFD297782B857C9200AA30D8 /* HockeyPlayerStatsApp.swift */,
 				CFD2977A2B857C9200AA30D8 /* ContentView.swift */,
+				CF4A53282B8A83DF00AF2E69 /* PlayerStatsView.swift */,
+				CF4A532A2B8ACFBE00AF2E69 /* GoalieStatsView.swift */,
 				CFD2977C2B857C9300AA30D8 /* Assets.xcassets */,
 				CFD2977E2B857C9300AA30D8 /* Preview Content */,
 			);
@@ -160,9 +166,11 @@
 				CFD297872B857E3200AA30D8 /* DataService.swift in Sources */,
 				CFD2978A2B85814600AA30D8 /* HockeyPlayerSearch.swift in Sources */,
 				CFD2978E2B8586F900AA30D8 /* Goalie.swift in Sources */,
+				CF4A532B2B8ACFBE00AF2E69 /* GoalieStatsView.swift in Sources */,
 				CFD2978C2B8582A300AA30D8 /* Skater.swift in Sources */,
 				CFD2977B2B857C9200AA30D8 /* ContentView.swift in Sources */,
 				CFD297792B857C9200AA30D8 /* HockeyPlayerStatsApp.swift in Sources */,
+				CF4A53292B8A83DF00AF2E69 /* PlayerStatsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

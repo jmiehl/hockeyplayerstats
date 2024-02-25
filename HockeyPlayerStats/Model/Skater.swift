@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Skater: Decodable {
+struct Skater: Decodable, Identifiable {
     var playerId: Int?
     var headshot: String?
     var firstName = FirstName()
@@ -26,29 +26,9 @@ struct Skater: Decodable {
     var avgTimeOnIcePerGame: Double?
     var avgShiftsPerGame: Double?
     var faceOffWinPctg: Double?
+    var id: Int? {playerId}
     
-    /*
-    enum CodingKeys: String, CodingKey {
-        case id = "playerId"
-        case headshot
-        case firstName
-        case lastName
-        case positionCode
-        case gamesPlayed
-        case goals
-        case assists
-        case points
-        case plusMinus
-        case penaltyMinutes
-        case powerPlayGoals
-        case shortHandedGoals
-        case shots
-        case shootingPctg
-        case avgTimeOnIcePerGame
-        case avgShiftsPerGame
-        
-    }
-    */
+
 }
 
 
@@ -63,8 +43,12 @@ struct FirstName: Decodable {
 
 struct LastName: Decodable {
     var lastName: String?
+    var cs: String?
+    var sk: String?
     
     enum CodingKeys: String, CodingKey {
         case lastName = "default"
+        case cs
+        case sk
     }
 }

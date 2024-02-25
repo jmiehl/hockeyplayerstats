@@ -7,9 +7,9 @@
 
 import Foundation
 
-struct Goalie: Decodable {
+struct Goalie: Decodable, Identifiable{
 
-    var playedId: Int?
+    var playerId: Int?
     var headshot: String?
     var firstName: FirstName
     var lastName: LastName
@@ -30,6 +30,8 @@ struct Goalie: Decodable {
     var points: Int?
     var penaltyMinutes: Int?
     var timeOnIce: Int?
+    
+    var id: Int? {playerId}
     
    /*
     enum CodingKeys: String, CodingKey {
